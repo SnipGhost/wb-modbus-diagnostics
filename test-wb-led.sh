@@ -9,7 +9,7 @@ max_level=70
 for slave_id in "$@"
 do
 	check_device $slave_id
-	check_device_model $slave_id "WBLED"
+	check_device_model $slave_id "WB-LED"
 	print_device_info $slave_id
 
 	# Save current mode:
